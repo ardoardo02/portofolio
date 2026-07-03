@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-body antialiased;
+    @apply bg-slate-100 text-slate-800;
+  }
+  .dark body {
+    @apply bg-night-950 text-slate-300;
+  }
+  ::selection {
+    @apply bg-neon-500/30;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply mx-auto max-w-6xl px-5 sm:px-8;
+  }
+  .section-title {
+    @apply font-display text-3xl sm:text-4xl font-semibold text-slate-900 dark:text-slate-100;
+  }
+  .section-eyebrow {
+    @apply font-mono text-sm text-neon-600 dark:text-neon-400 tracking-widest;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-medium transition-colors;
+    @apply border-slate-300 bg-white text-slate-700;
+    @apply dark:border-night-700 dark:bg-night-800 dark:text-slate-300;
+  }
+  .chip:hover {
+    @apply border-neon-500/60 text-neon-600 dark:text-neon-300 dark:shadow-glow-sm;
+  }
+  .card {
+    @apply rounded-xl border transition-all duration-300;
+    @apply border-slate-200 bg-white;
+    @apply dark:border-night-700 dark:bg-night-800/70;
+  }
+  .card:hover {
+    @apply -translate-y-1 border-neon-500/50 dark:shadow-glow-md;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-lg px-5 py-2.5 font-medium transition-all;
+    @apply bg-neon-500 text-night-950 hover:bg-neon-400 hover:shadow-glow-md;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 rounded-lg border px-5 py-2.5 font-medium transition-all;
+    @apply border-neon-600 text-neon-600 hover:bg-neon-500/10;
+    @apply dark:border-neon-400/60 dark:text-neon-300 dark:hover:shadow-glow-sm;
+  }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
