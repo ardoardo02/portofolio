@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-// Subtle floating particles + grid — kept low-density and low-opacity
+// Subtle floating particles + grid, kept low-density and low-opacity
 // on purpose so it reads as atmosphere, not noise.
 export default function ParticleBackground({ dark }) {
   const canvasRef = useRef(null)

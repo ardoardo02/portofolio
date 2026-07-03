@@ -41,7 +41,7 @@ export default function Hero() {
           transition={{ delay: 0.1 }}
           className="font-mono text-sm text-neon-600 dark:text-neon-400"
         >
-          &gt; hello_world — welcome to my portfolio
+          &gt; hello_world :: welcome to my portfolio
         </motion.p>
 
         <motion.h1
