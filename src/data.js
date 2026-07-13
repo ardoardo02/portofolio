@@ -166,7 +166,7 @@ export const projects = [
     description:
       "A garden themed platformer tower where a minigame interrupts your climb every 60 seconds.",
     tech: ["Roblox Studio", "Lua"],
-    thumbnail: "assets/grow-a-tower.jpg",
+    thumbnail: "assets/grow-a-tower.png",
     gallery: [],
     period: null,
     stats: [],
@@ -179,7 +179,7 @@ export const projects = [
     description:
       "A 2v2 math showdown. Fill in the blank answers, the fastest team wins the match.",
     tech: ["Roblox Studio", "Lua"],
-    thumbnail: "assets/math-dojo.jpg",
+    thumbnail: "assets/math-dojo.png",
     gallery: [],
     period: null,
     stats: [],
@@ -250,7 +250,7 @@ export const projects = [
     description:
       "A Roblox Indonesian hangout experience with a voice chat feature.",
     tech: ["Roblox Studio", "Lua"],
-    thumbnail: "assets/indovoice.jpg",
+    thumbnail: "assets/indo-voice.png",
     gallery: [],
     period: null,
     stats: [],
@@ -263,7 +263,7 @@ export const projects = [
     description:
       "A Roblox word puzzle game where players fill in the blanks to complete the words.",
     tech: ["Roblox Studio", "Lua"],
-    thumbnail: "assets/lengkapi-kata.jpg",
+    thumbnail: "assets/lengkapi-kata.png",
     gallery: [],
     period: null,
     stats: [],
@@ -372,7 +372,7 @@ export const projects = [
     description:
       "A Roblox word puzzle game where players find the hidden words in a grid of letters.",
     tech: ["Roblox Studio", "Lua"],
-    thumbnail: "assets/cari-kata.jpg",
+    thumbnail: "assets/cari-kata.png",
     gallery: [],
     period: null,
     stats: [],
