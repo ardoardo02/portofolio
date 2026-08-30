@@ -167,7 +167,7 @@ export const projects = [
       "Brackeys Game Jam 2026.2 entry. A game where you need to manage your cards to win.",
     tech: ["Godot", "GDScript", "Git"],
     thumbnail: "assets/cardial-kingpin.png",
-    gallery: ["assets/cardial-kingpin-gallery-1.png", "assets/cardial-kingpin-gallery-2.png", "assets/cardial-kingpin-gallery-3.png"],
+    gallery: ["assets/cardial-kingpin_1.png", "assets/cardial-kingpin_2.png", "assets/cardial-kingpin_3.png"],
     period: "23-30 Aug 2026 (7 days)",
     stats: [
       { label: "Rank", value: "Unranked / 2299 entries" },
@@ -226,7 +226,7 @@ export const projects = [
     description:
       "Created unique maps for available minigames to enhance gameplay in the popular game Epic Minigames.",
     tech: ["Roblox Studio"],
-    thumbnail: "assets/epic-minigames.jpg",
+    thumbnail: "assets/epic-minigames.png",
     gallery: [],
     period: null,
     stats: [],
@@ -253,8 +253,8 @@ export const projects = [
     description:
       "Branded Roblox experience developed for Indofood CBP. Map design and world building for a spicy themed island adventure.",
     tech: ["Roblox Studio", "Lua"],
-    thumbnail: "assets/pedas-dower.jpg",
-    gallery: [],
+    thumbnail: "assets/sarimi-gelas.jpg",
+    gallery: ["assets/sarimi-gelas_1.jpg"],
     period: "Apr 2025 - Jul 2026",
     stats: [],
     link: "https://www.roblox.com/games/79167667506661",
@@ -281,7 +281,7 @@ export const projects = [
       "A Roblox word puzzle game where players fill in the blanks to complete the words.",
     tech: ["Roblox Studio", "Lua"],
     thumbnail: "assets/lengkapi-kata.png",
-    gallery: ["assets/lengkapi-kata.png", "assets/lengkapi-kata_1.png"],
+    gallery: ["assets/lengkapi-kata_1.png"],
     period: null,
     stats: [],
     link: "https://www.roblox.com/games/72774564502867",
@@ -293,8 +293,8 @@ export const projects = [
     description:
       "A Roblox obby experience with a set on Mars. Made for Pelangi di Mars movie.",
     tech: ["Roblox Studio", "Lua"],
-    thumbnail: "assets/pelangi-mars-obby.jpg",
-    gallery: [],
+    thumbnail: "assets/pelangi-di-mars.jpg",
+    gallery: ["assets/pelangi-di-mars_1.jpg"],
     period: null,
     stats: [],
     link: "https://www.roblox.com/games/103213423543104",
@@ -432,7 +432,7 @@ export const projects = [
     description:
       "Designed unique maps with themed obstacles for the popular game The CrusheR.",
     tech: ["Roblox Studio"],
-    thumbnail: "assets/the-crusher.jpg",
+    thumbnail: "assets/the-crusher.png",
     gallery: [],
     period: null,
     stats: [],
