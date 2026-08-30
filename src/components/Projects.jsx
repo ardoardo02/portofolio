@@ -75,8 +75,16 @@ function GallerySlide({ item, name }) {
 
 function ProjectModal({ project, onClose }) {
   const gallery = useMemo(() => {
-    if (project.gallery && project.gallery.length > 0) return project.gallery
-    if (project.thumbnail) return [{ type: 'image', src: project.thumbnail }]
+    const items = (project.gallery || []).map((item) =>
+      typeof item === 'string' ? { type: 'image', src: item } : item,
+    )
+
+    if (project.thumbnail && !items.some((item) => item.src === project.thumbnail)) {
+      items.unshift({ type: 'image', src: project.thumbnail })
+    }
+
+    if (items.length > 0) return items
+
     return [{ type: 'placeholder' }]
   }, [project])
 
