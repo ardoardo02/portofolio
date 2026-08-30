@@ -160,6 +160,23 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "Cardial Kingpin",
+    category: "Game Jam",
+    roles: ["Programmer"],
+    description:
+      "Brackeys Game Jam 2026.2 entry. A game where you need to manage your cards to win.",
+    tech: ["Godot", "GDScript", "Git"],
+    thumbnail: "assets/cardial-kingpin.png",
+    gallery: ["assets/cardial-kingpin-gallery-1.png", "assets/cardial-kingpin-gallery-2.png", "assets/cardial-kingpin-gallery-3.png"],
+    period: "23-30 Aug 2026 (7 days)",
+    stats: [
+      { label: "Rank", value: "Unranked / 2299 entries" },
+      { label: "Theme", value: "Trust No One" },
+      { label: "Working Site", value: "Online" }
+    ],
+    link: "https://kinantan-games.itch.io/cardial-kingpin",
+  },
+  {
     name: "Grow a Tower",
     category: "Roblox",
     roles: ["Programmer"],
