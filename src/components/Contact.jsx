@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail, Youtube } from 'lucide-react'
+import { Gamepad2, Github, Linkedin, Mail, Youtube } from 'lucide-react'
 import Section from './Section.jsx'
 import { socials } from '../data.js'
 
@@ -8,6 +8,7 @@ const CONTACTS = [
   { label: 'LinkedIn', value: 'eduardo-sanov-rusianto', href: socials.linkedin, icon: Linkedin },
   { label: 'GitHub', value: 'ardoardo02', href: socials.github, icon: Github },
   { label: 'YouTube', value: 'ardomainaky', href: socials.youtube, icon: Youtube },
+  { label: 'Roblox', value: 'ObbyBuilder02', href: socials.roblox, icon: Gamepad2 },
 ]
 
 export default function Contact() {

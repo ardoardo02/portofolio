@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowDown, FileDown, Github, Linkedin, Youtube } from 'lucide-react'
+import { ArrowDown, FileDown, Gamepad2, Github, Linkedin, Youtube } from 'lucide-react'
 import { profile, socials } from '../data.js'
 
 function useTyping(words, typeSpeed = 80, holdTime = 1600) {
@@ -99,6 +99,7 @@ export default function Hero() {
             { href: socials.github, icon: Github, label: 'GitHub' },
             { href: socials.linkedin, icon: Linkedin, label: 'LinkedIn' },
             { href: socials.youtube, icon: Youtube, label: 'YouTube' },
+            { href: socials.roblox, icon: Gamepad2, label: 'Roblox' },
           ].map(({ href, icon: Icon, label }) => (
             <a
               key={label}
