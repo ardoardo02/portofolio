@@ -8,7 +8,7 @@ export const profile = {
     "I craft games and interactive experiences, from Roblox worlds played by thousands to web apps and game jam experiments.",
   bio: "I'm a developer with a lifelong passion for technology and the game industry. With a background in Informatics Engineering, I've shipped commercial Roblox projects for brands like Indofood, built web apps with React and CodeIgniter, and explored engines from Unity to Godot. I'm always reskilling, upskilling, and levelling up.",
   location: "Bogor, Indonesia",
-  avatar: "assets/avatar.png",
+  avatar: "assets/avatar.jpg",
   // cvUrl: "assets/cv.pdf",
   cvUrl: null,
   stats: [
