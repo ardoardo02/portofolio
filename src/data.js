@@ -338,7 +338,7 @@ export const projects = [
       "An tower/obby likes experience on Roblox built for Al-Qolam. Designed and built maps for the game.",
     tech: ["Roblox Studio", "Blender"],
     thumbnail: "assets/hafiz-go.jpg",
-    gallery: [],
+    gallery: ["assets/hafiz-go_1.jpg", "assets/hafiz-go_2.jpg"],
     period: "Nov 2020 - Jan 2021",
     stats: [],
     link: "https://www.roblox.com/games/5911641962",
@@ -377,7 +377,7 @@ export const projects = [
       "A game developed for the Global Game Jam Jakarta 2026, where you need to investigate and find the source of the paranormal activity in the school.",
     tech: ["Godot", "GDScript", "Git"],
     thumbnail: "assets/paranormal-club-activity.jpg",
-    gallery: [],
+    gallery: ["assets/paranormal-club-activity_1.jpg", "assets/paranormal-club-activity_2.jpg"],
     period: "30 Jan - 01 Feb 2026 (3 days)",
     stats: [
       { label: "Rank", value: "Best Narrative" },
@@ -419,8 +419,8 @@ export const projects = [
     description:
       "Dodge futuristic themed obstacles at each stage with limited lives.",
     tech: ["Roblox Studio", "Lua"],
-    thumbnail: "assets/future-obby.jpg",
-    gallery: ["assets/future-obby_1.jpg"],
+    thumbnail: "assets/future-impossible-obby.jpg",
+    gallery: ["assets/future-impossible-obby_1.jpg"],
     period: null,
     stats: [],
     link: "https://www.roblox.com/games/333096178",
